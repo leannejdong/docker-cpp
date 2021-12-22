@@ -1,4 +1,8 @@
-# Intro to dockerfile
+# Self-tutorial Doctorization C++
+First, one needs to set up docker. There exists dozen tutorials on this.
+Here I'm using [Arch Linux](https://linuxhint.com/arch-linux-docker-tutorial/).
+
+## Intro to dockerfile
 
 We use an example of creating ubuntu image on my machine  (Arch Linux Manjaro)
 
@@ -59,9 +63,9 @@ my_app        1         72249b244203   40 minutes ago   105MB
 ubuntu        20.04     ba6acccedd29   2 months ago     72.8MB
 hello-world   latest    feb5d9fea6a5   2 months ago     13.3kB
 ```
-# Compile C++ on ubuntu docker
+## Compile C++ on ubuntu docker
 
-## With Clang
+### With Clang
 There is no official image for clang on dockerhub. One can use the base image we have available in our system. (Ubuntu)
 ```
 sudo docker build . -t clang_cpp:1.0.0
@@ -70,7 +74,7 @@ sudo docker run --rm -it clang_cpp:1.0.0
 
 ```
 
-## With GCC
+### With GCC
 
 There are official image on dockerhub. So
 ```
