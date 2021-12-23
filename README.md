@@ -1,6 +1,6 @@
 # Self-tutorial Doctorization C++
 First, one needs to set up docker. There exists dozen tutorials on this.
-Here I'm using [Arch Linux](https://linuxhint.com/arch-linux-docker-tutorial/).
+Here I'm using [Arch Linux](https://linuxhint.com/arch-linux-docker-tutorial/) as a guide.
 
 ## Intro to dockerfile
 
