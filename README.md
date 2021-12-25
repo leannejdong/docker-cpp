@@ -7,6 +7,7 @@ Here I'm using [Arch Linux](https://linuxhint.com/arch-linux-docker-tutorial/) a
 Docker can build images automatically by reading instruction from docker files.
 A docker file is a text document contains all the commands the users may execute on the command line to assemble an image.
 One can build a docker file to produce a docker image. Then when we run the docker image, we got the docker container.
+![docker-container](docker.png)
 
 We use an example of creating ubuntu image on my machine  (Arch Linux Manjaro)
 
