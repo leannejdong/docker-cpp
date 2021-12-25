@@ -9,6 +9,8 @@ A docker file is a text document contains all the commands the users may execute
 One can build a docker file to produce a docker image. Then when we run the docker image, we got the docker container.
 ![docker-container](docker.png)
 
+### Some useful docker commands
+
 We use an example of creating ubuntu image on my machine  (Arch Linux Manjaro)
 
 ```
