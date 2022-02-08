@@ -1,9 +1,9 @@
-FROM gcc:latest
+ARG VERSION=20.04 
 
- COPY . /usr/src/cpp_test
-
- WORKDIR /usr/src/cpp_test
-
- RUN g++ -o Test main.cpp
-
- CMD ["./Test"]
+FROM ubuntu:${VERSION}
+ENV DEBIAN_FRONTEND=nonintercative
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    clang \
+    cmake 
+WORKDIR /build

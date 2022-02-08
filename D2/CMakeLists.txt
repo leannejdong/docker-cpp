@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(hello)
+set(CMAKE_CXX_STANDARD 17)
+add_compile_options(-Wall -Wextra -pedantic)
+add_executable(main proj/main.cpp)
